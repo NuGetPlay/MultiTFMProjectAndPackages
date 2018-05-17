@@ -49,15 +49,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Simple.Test.Package\My.Simple.Utilities.Project.csproj">
-      <Project>{c8bb7a76-9c81-4103-a9c9-4f4364251938}</Project>
-      <Name>My.Simple.Utilities.Project</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <PackageReference Include="My.Simple.Utilities">
       <Version>1.1.0</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\My.Simple.Utilities.Project\My.Simple.Utilities.Project.csproj">
+      <Project>{57d33690-3935-4a2a-b90c-64a6ad43c4de}</Project>
+      <Name>My.Simple.Utilities.Project</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

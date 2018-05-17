@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Simple.Test.Package\My.Simple.Utilities.Project.csproj" />
+    <ProjectReference Include="..\My.Simple.Utilities.Project\My.Simple.Utilities.Project.csproj" />
   </ItemGroup>
 
 </Project>

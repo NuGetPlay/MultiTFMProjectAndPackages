@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27715.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My.Simple.Utilities.Project", "Simple.Test.Package\My.Simple.Utilities.Project.csproj", "{C8BB7A76-9C81-4103-A9C9-4F4364251938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppNETCore2.0", "ConsoleAppNETCOre2.0\ConsoleAppNETCore2.0.csproj", "{A1BEB30C-335D-49E3-88BC-F7E5DA7AECF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppNETCore2.0", "ConsoleAppNETCOre2.0\ConsoleAppNETCore2.0.csproj", "{A1BEB30C-335D-49E3-88BC-F7E5DA7AECF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Simple.Utilities.Package", "My.Simple.Utilities.Package\My.Simple.Utilities.Package.csproj", "{1980E147-51DB-4807-9775-FCC03E8AC78C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppNETFx47", "ConsoleApp1\ConsoleAppNETFx47.csproj", "{67D3D0DE-8C23-413B-B4AA-F88A3A4D4188}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppNETFx47", "ConsoleAppNETFx47\ConsoleAppNETFx47.csproj", "{67D3D0DE-8C23-413B-B4AA-F88A3A4D4188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppNETFx462", "ConsoleApp2\ConsoleAppNETFx462.csproj", "{330B6298-582A-44BF-9CE3-B5CD1355BB88}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppNETFx462", "ConsoleAppNETFx462\ConsoleAppNETFx462.csproj", "{330B6298-582A-44BF-9CE3-B5CD1355BB88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "My.Simple.Utilities.Package", "My.Simple.Utilities.Package\My.Simple.Utilities.Package.csproj", "{1980E147-51DB-4807-9775-FCC03E8AC78C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "My.Simple.Utilities.Project", "My.Simple.Utilities.Project\My.Simple.Utilities.Project.csproj", "{57D33690-3935-4A2A-B90C-64A6AD43C4DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C8BB7A76-9C81-4103-A9C9-4F4364251938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8BB7A76-9C81-4103-A9C9-4F4364251938}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8BB7A76-9C81-4103-A9C9-4F4364251938}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8BB7A76-9C81-4103-A9C9-4F4364251938}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A1BEB30C-335D-49E3-88BC-F7E5DA7AECF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A1BEB30C-335D-49E3-88BC-F7E5DA7AECF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1BEB30C-335D-49E3-88BC-F7E5DA7AECF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1BEB30C-335D-49E3-88BC-F7E5DA7AECF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1980E147-51DB-4807-9775-FCC03E8AC78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1980E147-51DB-4807-9775-FCC03E8AC78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1980E147-51DB-4807-9775-FCC03E8AC78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1980E147-51DB-4807-9775-FCC03E8AC78C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{67D3D0DE-8C23-413B-B4AA-F88A3A4D4188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67D3D0DE-8C23-413B-B4AA-F88A3A4D4188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67D3D0DE-8C23-413B-B4AA-F88A3A4D4188}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -35,10 +35,10 @@ Global
 		{330B6298-582A-44BF-9CE3-B5CD1355BB88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{330B6298-582A-44BF-9CE3-B5CD1355BB88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{330B6298-582A-44BF-9CE3-B5CD1355BB88}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1980E147-51DB-4807-9775-FCC03E8AC78C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1980E147-51DB-4807-9775-FCC03E8AC78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1980E147-51DB-4807-9775-FCC03E8AC78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1980E147-51DB-4807-9775-FCC03E8AC78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D33690-3935-4A2A-B90C-64A6AD43C4DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D33690-3935-4A2A-B90C-64A6AD43C4DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D33690-3935-4A2A-B90C-64A6AD43C4DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D33690-3935-4A2A-B90C-64A6AD43C4DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
