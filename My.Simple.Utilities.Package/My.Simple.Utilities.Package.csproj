@@ -12,7 +12,7 @@
   </PropertyGroup>
 
   <Target Name="CopyPackage" AfterTargets="Pack">
-    <Copy SourceFiles="$(OutputPath)\$(PackageId).$(PackageVersion).nupkg" DestinationFolder="C:\Play\NuGet\NuGetLocal" />
+    <Copy SourceFiles="$(OutputPath)\$(PackageId).$(PackageVersion).nupkg" DestinationFolder="$(SolutionDir)\LocalNuGetRepo" />
   </Target>
   
 </Project>
