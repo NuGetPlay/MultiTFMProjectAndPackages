@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net462;net47</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>AG</Product>
+    <Company>AG</Company>
+    <Authors>AG</Authors>
+    <Description>Project Sample</Description>
+    <Version>1.1.0</Version>
+    <PackageId>My.Simple.Utilities</PackageId>
+  </PropertyGroup>
+
+  <Target Name="CopyPackage" AfterTargets="Pack">
+    <Copy SourceFiles="$(OutputPath)\$(PackageId).$(PackageVersion).nupkg" DestinationFolder="C:\Play\NuGet\NuGetLocal" />
+  </Target>
+  
+</Project>
